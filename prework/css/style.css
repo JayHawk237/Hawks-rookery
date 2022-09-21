@@ -8,12 +8,53 @@
 body{
     background-color: rgb(45, 105, 209);
     
+}
+
+.floatbox{
+
+    position: absolute;
+    top: 65%;
+    left: 25.5%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, .5);
+}
 
 
-    
+.floatbox2{
+
+    position: absolute;
+    top: 65%;
+    left: 75.5%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, .5);
+
+
+
 
 }
 
+.floatimgbox{
+
+width: 150px;
+flex: 150px;
+
+}
+.floatimgbox{
+
+max-width: 100%;
+margin-right: 50px;
+
+}
 
 
 h1{
@@ -42,18 +83,15 @@ h3{
     text-decoration: underline;
 
 }
-.chuchu{margin: 1px; padding: 1px; float: right; background-color: rgb(212, 213, 216); color: darkblue; font-family: 'Courier'}
-.squiddy{margin: 1px; padding: 1px; float: right; background-color: rgb(212, 213, 216); color: darkblue; font-family: 'Courier'}
+.chuchu{margin: 1px; padding: 10px; background-color: rgb(212, 213, 216); color: darkblue; font-family: 'Courier'}
+.squiddy{margin: 1px; padding: 10px; background-color: rgb(212, 213, 216); color: darkblue; font-family: 'Courier'}
 .maindiv{background-color: rgb(212, 213, 216); color: darkblue; font-family: 'Courier';}
 .tablediv{padding: 2px; margin: auto;}
+.tablediv2{padding: 2px; margin: auto; top: 90%;position: absolute;}
 .familydiv{background-color: rgb(168, 173, 210); color: darkblue; font-family: 'Courier';}
-.animediv{background-color: rgb(163, 221, 38); color: darkblue; font-family: 'Courier';}
-.cookingdiv{background-color: rgb(201, 72, 89); color: darkblue; font-family: 'Courier';}
-#div2{background-color: cadetblue;}
-#div3{background-color: rgb(148, 178, 203);}
-#div4{background-color: rgb(85, 152, 154);}
-
-.maindiv{position: relative; margin: 20px;}
+.animediv{background-color: rgb(163, 221, 38); color: darkblue; font-family: 'Courier'; margin: 20px; padding: 20px;}
+.cookingdiv{background-color: rgb(201, 72, 89); color: darkblue; font-family: 'Courier'; margin: 20px; padding: 20px;}
+.maindiv{margin: 20px; padding: 20px;}
 
 form{
     padding: 15px;
